@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS Test Suite" parallel="tests" thread-count="1">
+    <test name="iOS- Login to app">
+        <parameter name="wda" value="8300"/>
+        <parameter name="platform" value="iOS"/>
+        <parameter name="deviceName" value="Q’s iPhone"/>
+        <parameter name="udid" value="00008101-000E25CC11D0001E"/>
+        <parameter name="port" value="4727"/>
+        <parameter name="platformVersion" value="15.0.1"/>
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="testcases.app.AppLogin" />
+        </classes>
+    </test>
+</suite>

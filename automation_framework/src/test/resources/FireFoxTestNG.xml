@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Only Suite for FireFox" parallel="tests" thread-count="1">
+    <test name="Test login on Firefox">
+        <parameter name="browserName" value="Firefox"/>
+        <classes>
+            <class name="testcases.web.loginClinician" />
+        </classes>
+    </test>
+</suite>

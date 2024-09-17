@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Test Suite" parallel="tests" thread-count="1">
+
+    <test name="test1">
+        <parameter name="platformVersion" value="11.0"/>
+        <parameter name="platform" value="Android"/>
+        <parameter name="deviceName" value="Galaxy A51"/>
+        <parameter name="port" value="8302"/>
+
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="testcases.app.AppLogin" />
+        </classes>
+    </test>
+
+</suite>

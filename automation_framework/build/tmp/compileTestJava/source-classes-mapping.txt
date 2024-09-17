@@ -1,0 +1,59 @@
+client/TestRailStatusID.java
+ client.TestRailStatusID
+pageobject/app/common/ButtonPO.java
+ pageobject.app.common.ButtonPO
+utils/AppiumUtils.java
+ utils.AppiumUtils
+testcases/web/loginClinician.java
+ testcases.web.loginClinician
+utils/WaitUtils.java
+ utils.WaitUtils
+utils/AssertUtils.java
+ utils.AssertUtils
+pageobject/app/SettingsPO.java
+ pageobject.app.SettingsPO
+listeners/PostResults.java
+ listeners.PostResults
+utils/JavaFaker.java
+ utils.JavaFaker
+testcases/app/AppToWeb.java
+ testcases.app.AppToWeb
+pageobject/app/LoginPO.java
+ pageobject.app.LoginPO
+testcases/app/SignupWithAccessCode.java
+ testcases.app.SignupWithAccessCode
+listeners/TestNgTestRailListener.java
+ listeners.TestNgTestRailListener
+utils/CommonUtils.java
+ utils.CommonUtils
+pageobject/web/WebLoginPO.java
+ pageobject.web.WebLoginPO
+client/APIException.java
+ client.APIException
+testcases/app/AppLogin.java
+ testcases.app.AppLogin
+testcases/BaseTest.java
+ testcases.BaseTest
+pageobject/BaseWebPO.java
+ pageobject.BaseWebPO
+client/APIClient.java
+ client.APIClient
+testcases/TestCases.java
+ testcases.TestCases
+pageobject/app/DashboardPO.java
+ pageobject.app.DashboardPO
+pageobject/app/SignupPO.java
+ pageobject.app.SignupPO
+utils/TestRails.java
+ utils.TestRails
+pageobject/BasePO.java
+ pageobject.BasePO
+utils/UseAsTestRailId.java
+ utils.UseAsTestRailId
+utils/StringUtils.java
+ utils.StringUtils
+utils/PropertyUtils.java
+ utils.PropertyUtils
+ utils.UnableToLoadPropertiesException
+pageobject/app/HomeScreenPO.java
+ pageobject.app.HomeScreenPO
